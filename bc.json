@@ -1,7 +1,13 @@
 {
     "port": 3000,
-    "address": "localhost",
+    "address": "https://dc608623-dcca-46c2-9887-dcb63e81ec95.ws-us02.gitpod.io",
     "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
     "outputPath": "./.breathecode/dist",
     "publicPath": "/preview",
     "grading": "isolated",
@@ -27,52 +33,63 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": false
         },
         {
             "slug": "02-Hello-World",
             "title": "02-Hello-World",
+            "done": true,
             "path": "exercises/02-Hello-World",
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "03-What-is-a-function",
             "title": "03-What-is-a-function",
+            "done": true,
             "path": "exercises/03-What-is-a-function",
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "04-Call-a-function",
             "title": "04-Call-a-function",
+            "done": true,
             "path": "exercises/04-Call-a-function",
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "05-Defining-vs-Calling-a-function",
             "title": "05-Defining-vs-Calling-a-function",
+            "done": true,
             "path": "exercises/05-Defining-vs-Calling-a-function",
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "06-Anonymous-functions",
             "title": "06-Anonymous-functions",
+            "done": true,
             "path": "exercises/06-Anonymous-functions",
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "07-Arrow-Functions",
@@ -81,16 +98,19 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "08-Function-that-returns",
             "title": "08-Function-that-returns",
+            "done": true,
             "path": "exercises/08-Function-that-returns",
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "09-Function-parameters",
@@ -99,7 +119,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "10-Array-Methods",
@@ -108,7 +129,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         }
     ]
 }
